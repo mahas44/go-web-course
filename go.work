@@ -1,0 +1,14 @@
+go 1.21.5
+
+use (
+	./web-client
+	./web-hands-on
+	./web-http-handler
+	./web-http-request
+	./web-http-response-writer
+	./web-http-servemux
+	./web-inmemory-database
+	./web-server
+	./web-tcp-server-http-request
+	./web-templates
+)
