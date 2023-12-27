@@ -53,8 +53,8 @@ func HandsOnThree() {
 			}
 		}
 		fmt.Println("Code got here")
+		io.WriteString(conn, "HTTP/1.1 200 OK\r\n")
 		io.WriteString(conn, "I see you connected")
-
 		conn.Close()
 	}
 }
