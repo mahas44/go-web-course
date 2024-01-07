@@ -11,4 +11,5 @@ use (
 	./web-server
 	./web-tcp-server-http-request
 	./web-templates
+	./web-serving-file
 )
