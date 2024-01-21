@@ -1,4 +1,4 @@
-go 1.21.5
+go 1.21.6
 
 use (
 	./web-client
@@ -9,7 +9,8 @@ use (
 	./web-http-servemux
 	./web-inmemory-database
 	./web-server
+	./web-serving-file
+	./web-state
 	./web-tcp-server-http-request
 	./web-templates
-	./web-serving-file
 )
