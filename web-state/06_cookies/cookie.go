@@ -6,11 +6,12 @@ import (
 )
 
 func Cookie() {
-	http.HandleFunc("/", set)
-	http.HandleFunc("/read", read)
-	http.HandleFunc("/abundance", abundance)
-	http.Handle("/favicon.ico", http.NotFoundHandler())
-	http.ListenAndServe(":8080", nil)
+	// http.HandleFunc("/", CreateACounterWithCookies)
+	// http.HandleFunc("/read", read)
+	// http.HandleFunc("/abundance", abundance)
+	// http.Handle("/favicon.ico", http.NotFoundHandler())
+	// http.ListenAndServe(":8080", nil)
+	Cookie2()
 }
 
 func set(w http.ResponseWriter, req *http.Request) {
