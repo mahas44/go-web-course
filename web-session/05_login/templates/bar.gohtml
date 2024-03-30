@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BAR</title>
+</head>
+<style>
+    table, td {
+        border: 1px solid;
+    }
+    table {
+        border-collapse: collapse;
+    }
+</style>
+
+<body>
+
+<h1>Welcome to the bar. What can I get you to drink?</h1>
+
+{{if .First}}
+<table>
+    <tr>
+        <td>USER NAME</td>
+        <td>{{.UserName}}</td>
+    </tr>
+    <tr>
+        <td>PASSWORD</td>
+        <td>{{.Password}}</td>
+    </tr>
+    <tr>
+        <td>FIRST NAME</td>
+        <td>{{.First}}</td>
+    </tr>
+    <tr>
+        <td>LAST NAME</td>
+        <td>{{.Last}}</td>
+    </tr>
+</table>
+{{end}}
+
+</body>
+</html>
