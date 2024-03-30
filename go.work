@@ -13,4 +13,5 @@ use (
 	./web-state
 	./web-tcp-server-http-request
 	./web-templates
+	./web-session
 )
